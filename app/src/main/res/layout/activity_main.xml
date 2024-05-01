@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    android:paddingTop="@dimen/cardview_compat_inset_shadow"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="NIK"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/Nik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Masukkan NIK"
+            android:inputType="number"
+            android:maxLength="16"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Nama"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/Nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Masukkan Nama"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Tanggal Lahir"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/TanggalLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="Pilih Tanggal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Tempat Lahir"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/TempatLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Masukkan Tempat Lahir" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Alamat"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/Alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Masukkan Tempat Lahir" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Usia"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/Usia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="00" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Jenis Kelamin"
+            android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/jenis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Kewarganegaraan"
+            android:textSize="20sp"/>
+
+        <RadioGroup
+            android:id="@+id/rgroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WNI" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WNA" />
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Bidang Kompetensi"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/devit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Development dan IT" />
+
+        <CheckBox
+            android:id="@+id/AIserv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AI Services" />
+
+        <CheckBox
+            android:id="@+id/DesCre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Design Creative" />
+
+        <CheckBox
+            android:id="@+id/Writ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Writing" />
+
+        <CheckBox
+            android:id="@+id/FinAcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Finance 7 Accounting" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Email"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/editTextText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/resetform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Reset Form"/>
+
+        <Button
+            android:id="@+id/submitform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Submit Form" />
+
+    </LinearLayout>
+
+</ScrollView>

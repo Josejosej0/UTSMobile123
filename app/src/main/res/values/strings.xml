@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Test123</string>
+    <string name="NIK" />
+    <string name="Nama" />
+    <string name="TempatLahir" />
+    <string name="Alamat" />
+    <string name="Email" />
+    <string name="Kalender" />
+
+
+</resources>
